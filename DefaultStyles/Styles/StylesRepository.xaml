@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <!-- File that brings together all resources that will be used externally -->
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/DefaultStyles;component/Styles/DynamicColors.xaml" />
+        <ResourceDictionary Source="/DefaultStyles;component/Styles/ControlsStyle/ButtonStyle.xaml" />
+        <ResourceDictionary Source="/DefaultStyles;component/Styles/ControlsStyle/TextBoxStyle.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

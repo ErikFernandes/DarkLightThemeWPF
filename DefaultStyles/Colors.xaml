@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--#region  Main Colors-->
+
+    <Color x:Key="Main.Blue">#05a8e4</Color>
+    <Color x:Key="Main.BlueDark">#0487a0</Color>
+    <Color x:Key="Main.LightBlue">#c1f5ff</Color>
+    <Color x:Key="Main.BabyBlue">#82ecff</Color>
+    <Color x:Key="Main.White">#FFFFFF</Color>
+    <Color x:Key="Main.Black">#000000</Color>
+    
+    <!--#endregion-->
+    
+    
+    <!--#region Gray Scale-->
+    
+    <Color x:Key="GrayScale.Levels.1">#F5F5F5</Color>
+    <Color x:Key="GrayScale.Levels.2">#CCCCCC</Color>
+    <Color x:Key="GrayScale.Levels.3">#A2A2A2</Color>
+    <Color x:Key="GrayScale.Levels.4">#797979</Color>
+    <Color x:Key="GrayScale.Levels.5">#4F4F4F</Color>
+    <Color x:Key="GrayScale.Levels.6">#333333</Color>
+    
+    <!--#endregion-->
+    
+
+</ResourceDictionary>

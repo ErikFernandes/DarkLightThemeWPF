@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- File that defines the light theme colors -->
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/DefaultStyles;component/Colors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--#region DynamicColors-->
+
+    <Color x:Key="DynamicBackground">#F5F5F5</Color>
+    
+    <!--#endregion-->
+    
+    <!--#region Buttons-->
+    
+    <!--StandardButton-->
+    <SolidColorBrush x:Key="StandardButton.Static.Background" Color="{StaticResource Main.White}" />
+    <SolidColorBrush x:Key="StandardButton.Static.Foreground" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardButton.Static.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardButton.MouseOver.Background" Color="{StaticResource GrayScale.Levels.3}" />
+    <SolidColorBrush x:Key="StandardButton.MouseOver.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardButton.Pressed.Background" Color="{StaticResource GrayScale.Levels.2}" />
+    <SolidColorBrush x:Key="StandardButton.Pressed.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardButton.Disabled.Background" Color="{StaticResource GrayScale.Levels.2}" />
+    <SolidColorBrush x:Key="StandardButton.Disabled.Border" Color="{StaticResource GrayScale.Levels.3}" />
+    <SolidColorBrush x:Key="StandardButton.Disabled.Foreground" Color="{StaticResource GrayScale.Levels.3}" />
+
+    
+    <!--LightDarkButton-->
+    <Image x:Key="LightDarkButton.Image" Source="/DefaultStyles;component/Source/Images/moon_image.png" Stretch="UniformToFill" />
+
+    <!--#endregion-->
+
+    <!--#region TextBox-->
+
+    <!--// StandardTextBox //-->
+    <SolidColorBrush x:Key="StandardTextBox.Static.Background" Color="{StaticResource Main.White}" />
+    <SolidColorBrush x:Key="StandardTextBox.Static.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardTextBox.Static.Foreground" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardTextBox.MouseOver.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardTextBox.Focus.Border" Color="{StaticResource Main.Black}" />
+    <SolidColorBrush x:Key="StandardTextBox.Selection.SelectionBrush" Color="{StaticResource Main.Blue}" />
+    
+    <!--#endregion-->
+    
+    
+</ResourceDictionary>
